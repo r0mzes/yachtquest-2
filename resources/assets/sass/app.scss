@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Unicase:600');
+
+body {
+	color: #fff;
+	background-color: #181818;
+}
+#header {
+	background-image: url(/img/background-header.png);
+    background-size: auto;
+    background-position: bottom;
+    filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
+}
+footer {
+	padding-top: 70px;
+    padding-bottom: 30px;
+    background-image: url(/img/background-footer.png);
+    background-size: auto;
+    background-position: top;
+}
+@media (max-width: 575.98px) {
+	.navbar-brand {
+		max-width: 50%;
+	}
+	#about img {
+		max-width: 70%
+	}
+}
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+#about {
+  font-size: 14px;
+}
+
+// Extra Small devices (landscape phones, 360px and up)
+@media (min-width: 360px) {
+	#about {
+   		font-size: 14px;
+  	}
+  	.display-1 {
+    	font-size: 4rem;
+	}
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+	#about {
+   		font-size: 16px;
+  	}
+  	.display-1 {
+    	font-size: 4rem;
+	}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+	 #about {
+    	font-size: 16px;
+  	}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+	#about {
+    	font-size: 19px;
+  	}
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+	#about {
+    	font-size: 20px;
+  	}
+}
